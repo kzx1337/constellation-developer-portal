@@ -1,0 +1,14 @@
+site_name: Constellation Developer Portal
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+nav:
+  - Homepage: index.md
+  - Contributing: contributing.md
+  - Tungsten:
+      - Introduction: tungsten/introduction.md
+markdown_extensions:
+  - admonition
+  - attr_list
