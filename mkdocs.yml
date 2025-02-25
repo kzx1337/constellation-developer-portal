@@ -4,11 +4,13 @@ theme:
   name: material
   features:
     - content.code.copy
+    - content.tooltips
 nav:
   - Homepage: index.md
   - Contributing: contributing.md
   - Tungsten:
       - Introduction: tungsten/introduction.md
+      - Scan&Shop: tungsten/scanshop.md
 markdown_extensions:
   - admonition
   - attr_list
