@@ -1,7 +1,7 @@
 # Constellation Developer Documentation
 This repository contains the source files for the Constellation Developer Documentation. Built using [MkDocs](https://www.mkdocs.org/).
 
-## Contributing**
+## Contributing
 We are open for contributions! If you find any errors, areas for improvement, or have suggestions for new sections, feel free to contribute by making a pull request.
 
 > **Warning**  
