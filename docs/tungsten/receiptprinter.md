@@ -1,6 +1,6 @@
 # Receipt Printer in Tungsten Self-Checkouts
 
-Receipt printer support in tungsten allows easy printing of transaction receipts with error handling through the Built-in Printer API.
+Receipt printer support in tungsten allows easy printing with error handling through the Built-in Printer API.
 
 ## Purposes of receipt printer
 
