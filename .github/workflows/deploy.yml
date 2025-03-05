@@ -30,6 +30,9 @@ jobs:
       - name: copy site to root
         run: |
           cp -r site/* ./  
+      
+      - name: create cname file
+        run: echo "developer.constellationgroup.site" > CNAME
 
       - name: remove source files
         run: |
