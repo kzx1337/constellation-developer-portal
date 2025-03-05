@@ -7,15 +7,11 @@ on:
 
 jobs:
   build:
-    needs: build
-
+    runs-on: ubuntu-latest  
+    
     permissions:
       pages: write  
       id-token: write
-
-    runs-on: ubuntu-latest  
-    
-    
     
     steps:
       - name: checkout
