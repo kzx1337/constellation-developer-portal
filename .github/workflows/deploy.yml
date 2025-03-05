@@ -27,6 +27,14 @@ jobs:
       - name: build site
         run: mkdocs build --clean 
 
+      - name: copy site to root
+        run: |
+          cp -r site/* ./  
+
+      - name: remove source files
+        run: |
+          rm -rf mkdocs.yml docs .vscode site .github
+
       - name: deploy to gh pages
         run: |
           git config --global user.name 'GitHub Actions'
